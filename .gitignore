@@ -39,6 +39,11 @@ spring-boot-devtools.properties
 Thumbs.db
 
 # -------------------------------
+# Netbeans
+# -------------------------------
+nb-configuration.xml
+
+# -------------------------------
 # Lombok (optional)
 # -------------------------------
 *.class
