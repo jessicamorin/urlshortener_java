@@ -1,0 +1,47 @@
+# -------------------------------
+# Maven / Java
+# -------------------------------
+# Compiled class files
+*.class
+
+# Maven target directory
+/target/
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE specific files
+/.idea/
+/nbproject/private/
+*.iml
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# NetBeans
+/nbbuild/
+/dist/
+/nbdist/
+/build/
+
+# -------------------------------
+# Spring Boot / logs / temp
+# -------------------------------
+# Logs
+*.log
+logs/
+spring.log
+
+# Application temporary files
+*.tmp
+*.swp
+
+# DevTools
+spring-boot-devtools.properties
+
+# -------------------------------
+# OS / s
