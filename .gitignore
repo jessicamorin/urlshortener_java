@@ -12,21 +12,7 @@
 *.war
 *.ear
 
-# IDE specific files
-/.idea/
-/nbproject/private/
-*.iml
-
-# Eclipse
-/.classpath
-/.project
-/.settings/
-
 # NetBeans
-/nbbuild/
-/dist/
-/nbdist/
-/build/
 
 # -------------------------------
 # Spring Boot / logs / temp
@@ -44,4 +30,25 @@ spring.log
 spring-boot-devtools.properties
 
 # -------------------------------
-# OS / s
+# OS / system files
+# -------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# -------------------------------
+# Lombok (optional)
+# -------------------------------
+*.class
+
+# -------------------------------
+# Maven wrapper (keep only wrapper files)
+/mvnw
+/mvnw.cmd
+/.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/maven-wrapper.properties
+# ignore everything else in .mvn
+/.mvn/*
+!/.mvn/wrapper/
