@@ -13,10 +13,8 @@ services:
       - "8080:8080"
     depends_on:
       - mongodb
-    volumes:
-      - .:/app
     environment:
-      SPRING_DATA_MONGODB_URI: mongodb://mongo:27017/urlshortener
+      SPRING_DATA_MONGODB_URI: mongodb://mongodb:27017/urlshortener
 
 volumes:
   mongo-data:
