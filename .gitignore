@@ -49,11 +49,8 @@ nb-configuration.xml
 *.class
 
 # -------------------------------
-# Maven wrapper (keep only wrapper files)
+# Maven Wrapper
 /mvnw
 /mvnw.cmd
 /.mvn/wrapper/maven-wrapper.jar
 /.mvn/wrapper/maven-wrapper.properties
-# ignore everything else in .mvn
-/.mvn/*
-!/.mvn/wrapper/
